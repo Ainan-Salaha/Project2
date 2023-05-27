@@ -144,7 +144,6 @@
 
 /* Page2 */
 
-
 .blur {
     filter: blur(1px);
 }
@@ -195,10 +194,7 @@
     color: white;
     top: 154px;
 
-
 }
-
-
 
 
 
@@ -207,7 +203,6 @@
 .plus1 {
     position: relative;
     left: 790px;
-
     margin-top: -6px;
     font-size: 35px;
     color: rgb(35, 185, 231);
@@ -217,9 +212,7 @@
 .a1 {
     position: absolute;
     left: 900px;
-
     font: normal normal normal 22px/26px Inter;
-
 }
 
 
