@@ -1,34 +1,38 @@
-*{
+* {
     margin: 0;
     padding: 0;
+    /* box-sizing: border-box; */
 }
 
-.task{
+.task {
     margin-top: 20px;
     padding: 0 0 0 125px;
- font-weight: bold;
- font: normal normal bold 40px/49px Inter;
+    font-weight: bold;
+    font: normal normal bold 40px/49px Inter;
 }
 
-.plus{
+.plus {
     position: relative;
     left: 1093px;
-  
+
     margin-top: -6px;
     font-size: 35px;
     color: rgb(35, 185, 231);
-    
-
 }
-.add{
+.container{
+    height: 150vh;
+    width: 100%;
+}
+
+
+.add {
     position: absolute;
     left: 1200px;
- 
- font: normal normal normal 22px/26px Inter; 
+    font: normal normal normal 22px/26px Inter;
 }
 
-.main{
-    
+.main {
+
     padding: 70px;
     width: 100%;
     height: 690px;
@@ -38,52 +42,60 @@
     display: flex;
     flex-flow: row wrap;
     border: 0px solid EDEDED;
-    background-image: linear-gradient(
-        rgb(223, 222, 222) 0% 0% ,
-        white 4% 90%
-    );
-   box-sizing: border-box;
+    background-image: linear-gradient(rgb(223, 222, 222) 0% 0%,
+            white 4% 90%);
+    box-sizing: border-box;
 }
- .span{
+
+.span {
     text-decoration: line-through;
     color: gray;
 }
-.trp{
+
+.trp {
     text-decoration: none;
 
 }
-.paris{
+
+.paris {
     position: absolute;
     top: 140px;
     left: 135px;
     border: 1px solid #EDEDED;
     background-color: white;
     width: 330px;
-    height: 310px; 
+    height: 310px;
     border-radius: 4px;
     padding: 10px;
-
 }
 
-.todo{
+.paris:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+.todo {
     border: 1px solid #EDEDED;
     background-color: white;
     position: absolute;
     left: 585px;
     top: 116px;
     width: 330px;
-    height: 310px;  
+    height: 310px;
     border-radius: 4px;
     padding: 10px;
     margin-top: 27px;
     margin-left: 11px;
-
 }
-.movie{
+
+.todo:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+.movie {
     border: 1px solid #EDEDED;
     background-color: white;
     width: 330px;
-    height: 310px; 
+    height: 310px;
     border-radius: 4px;
     position: absolute;
     left: 1061px;
@@ -91,43 +103,53 @@
     padding: 10px;
     margin-top: 27px;
     margin-left: 11px;
-
 }
-.routine{
+
+.movie:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+.routine {
     border: 1px solid #EDEDED;
     background-color: white;
     width: 330px;
-    height: 310px; 
+    height: 310px;
     border-radius: 4px;
     position: absolute;
     top: 553px;
     left: 135px;
     padding: 10px;
-   
 }
-.book{
-    
+
+.routine:hover {
+    box-shadow: 0px 0px 10px grey;
+}
+
+.book {
+
     border: 1px solid #EDEDED;
     background-color: white;
     width: 330px;
-    height: 310px; 
+    height: 310px;
     border-radius: 4px;
     position: absolute;
     top: 553px;
     left: 600px;
     padding: 10px;
-   
-   
-} 
+}
+
+.book:hover {
+    box-shadow: 0px 0px 10px grey;
+}
 
 /* Page2 */
-    
-  
- .blur{
-    filter: blur(1px);
- }
 
-.popup{
+
+.blur {
+    filter: blur(1px);
+}
+
+.popup {
     border: 1px solid rgb(187, 184, 184);
     width: 549px;
     height: 211px;
@@ -140,26 +162,28 @@
 }
 
 
-.new{
+.new {
     padding: 10px;
 }
 
-.sa{
+.sa {
     position: relative;
     left: 500px;
     top: 15px;
     font-size: x-large;
     color: rgb(181, 174, 174);
 }
-#ta{
+
+#ta {
     border: 1px solid;
     border-radius: 4px;
     height: 10px;
     width: 466px;
-    padding:10px;
+    padding: 10px;
     margin: 10px;
 }
-#ra{
+
+#ra {
     border: 1px solid;
     height: 33px;
     width: 132px;
@@ -170,8 +194,8 @@
     font-size: large;
     color: white;
     top: 154px;
-     
-    
+
+
 }
 
 
@@ -180,41 +204,43 @@
 
 /* page3 */
 
-.plus1{
+.plus1 {
     position: relative;
     left: 790px;
-   
+
     margin-top: -6px;
     font-size: 35px;
     color: rgb(35, 185, 231);
-    
+
 }
-.a1{
+
+.a1 {
     position: absolute;
     left: 900px;
 
- font: normal normal normal 22px/26px Inter; 
+    font: normal normal normal 22px/26px Inter;
 
 }
 
 
-.back{
+.back {
     margin-right: 10px;
     margin-top: -6px;
     font: normal normal normal 22px/26px Inter;
     position: absolute;
     left: 550px
 }
-.ba1{
+
+.ba1 {
     margin-top: -6px;
     position: absolute;
- left: 510px; 
- font-size: 30px;
- color: black;
+    left: 510px;
+    font-size: 30px;
+    color: black;
 
 }
 
-.paris1{
+.paris1 {
     border: 1px solid #EDEDED;
     background-color: white;
     width: 564px;
@@ -227,14 +253,14 @@
     padding: 10px;
     text-align: center;
     font: normal normal medium 24px/29px Inter;
-  
+
     text-decoration: none;
 }
 
 
 /* page4 */
 
-.popup1{
+.popup1 {
     border: 1px solid rgb(187, 184, 184);
     width: 406px;
     height: 210px;
@@ -242,30 +268,33 @@
     position: relative;
     bottom: 579px;
     left: 552px;
-    background-color: white ; 
+    background-color: white;
     box-shadow: 0 0 .5em rgb(174, 169, 169);
 
 
 }
-.new1{
+
+.new1 {
     padding: 10px;
 }
 
-.sa1{
+.sa1 {
     position: relative;
     left: 360px;
     top: 15px;
     font-size: x-large;
     color: rgb(181, 174, 174);
 }
-#ta1{
+
+#ta1 {
     border: 1px solid;
     height: 10px;
     width: 350px;
-    padding:10px;
+    padding: 10px;
     margin: 10px;
 }
-#ra1{
+
+#ra1 {
     border: 1px solid;
     height: 33px;
     width: 132px;
@@ -276,9 +305,6 @@
     font-size: large;
     color: white;
     top: 154px;
-     
-    
+
+
 }
-
-
-
